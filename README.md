@@ -1,19 +1,19 @@
-# html-css-ts-project-template
+# Google
 
 ## Assignment
 
-The goal of this assignment was to create a basic webpage to act as a template for all future html projects.
+The goal of this assignment was to recreate Google's home page displayed below.
 
 ![image of My webpage](././images/mypage.png)
 
-The above is a screen capture of the template that I created.
+Please Note: This assignment was during Google's Champion game so the champions games doodle was used instead of the normal Google logo.
 
-![image of My webpage](././icons/current/dai5.svg)
+</br>
 
-The above is a custom favicon that I made for the template, to be used in all future html projects.
+For more information on Google's Champion games or to see the Google doodle please follow the link below.
 
-<br/>
+https://www.google.com/doodles/doodle-champion-island-games-begin
 
 A link to the webpage that I made can be found in the About section of this repository or below.
 
-https://html-css-template-dommitchell.netlify.app/
+https://google-dommitchell.netlify.app/

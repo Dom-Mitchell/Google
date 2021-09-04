@@ -22,25 +22,133 @@
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
-  /* min-height: 100%; */
-  background-color: var(--pale-green);
+  min-height: 100%;
+  font-family: 'Arial';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+nav, footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+nav ul, footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.google-apps-icon-container {
+  display: grid;
+  grid-template-columns: 7px 7px 7px;
+  grid-template-rows: 7px 7px 7px;
+}
+
+.google-apps-icon {
+  width: 5px;
+  height: 5px;
+  background-color: #737373
+}
+
+nav ul li {
+  font-size: .9rem;
+  list-style: none;
+  padding: 0;
+  margin: 15px 12px 15px;
+}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+.profile-picture {
+  height: 35px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30vh;
+}
+
+.google-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  border: 1px #DEE1E5 solid;
+  border-radius: 50px 50px 50px 50px;
+  height: 50px;
+  width: 80%;
+  margin: 20px 0 30px;
+}
+
+.search-box:hover {
+  box-shadow: 2px 2px 5px #EAEBEE;
+}
+
+.search-box input {
+  width: 80%;
+  margin: 0 15px 0 15px;
+  border: white;
+}
+
+.search-icon {
+  width: 4%;
+}
+
+.microphone-icon {
+  width: 4%;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: #5F6267;
+  font-size: .9rem;
+  background-color: #F3F3F3;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
 footer {
-  text-align: center;
-  padding: 3px 3px 0px 3px;
-  /* padding-top: 3px; */
-  /* padding-left: 3px; */
-  /* padding-right: 3px; */
-  /* padding-bottom: none; */
-  background-color: var(--slate);
-  color: black;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /* width: 100%; */
-  /* color: #fff; */
+  background-color: #F2F2F2;
+  width: 100%;
+  align-self: flex-end;
+  padding: 0px;
+}
+
+footer ul {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer li {
+  font-size: .95rem;
+  list-style: none;
+  color: #6A6D71;
+  padding: 0;
+  margin: 15px 15px 15px;
 }
